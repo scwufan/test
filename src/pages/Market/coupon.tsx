@@ -7,7 +7,7 @@ import { useDispatch, useHistory, useLocation, useSelector } from 'umi';
 
 const { Option } = Select;
 const { Search } = Input;
-const coupon = () => {
+const Coupon = () => {
     const { Column, ColumnGroup } = Table;
     let history = useHistory()
     let [form] = Form.useForm()
@@ -318,4 +318,4 @@ const coupon = () => {
     )
 }
 
-export default coupon
+export default Coupon

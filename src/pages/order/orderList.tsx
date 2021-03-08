@@ -7,7 +7,7 @@ import { useDispatch, useHistory, useLocation, useSelector } from 'umi';
 
 const { Option } = Select;
 const { Search } = Input;
-const orderList = () => {
+const OrderList = () => {
     const { Column, ColumnGroup } = Table;
     let history = useHistory()
     let [form] = Form.useForm()
@@ -313,4 +313,4 @@ const orderList = () => {
     )
 }
 
-export default orderList
+export default OrderList

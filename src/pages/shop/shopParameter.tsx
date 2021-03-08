@@ -9,7 +9,7 @@ import { MinusCircleOutlined, PlusOutlined, InboxOutlined } from '@ant-design/ic
 
 const { Option } = Select;
 const { Search } = Input;
-const shopParameter = () => {
+const ShopParameter = () => {
     const { Column, ColumnGroup } = Table;
     let history = useHistory()
     const [form] = Form.useForm()
@@ -322,4 +322,4 @@ const shopParameter = () => {
 }
 
 
-export default shopParameter
+export default ShopParameter

@@ -7,7 +7,7 @@ import { useDispatch, useHistory, useLocation, useSelector } from 'umi';
 
 const { Option } = Select;
 const { Search } = Input;
-const redEnvelopes = () => {
+const RedEnvelopes = () => {
     const { Column, ColumnGroup } = Table;
     let history = useHistory()
     let [form] = Form.useForm()
@@ -318,4 +318,4 @@ const redEnvelopes = () => {
     )
 }
 
-export default redEnvelopes
+export default RedEnvelopes

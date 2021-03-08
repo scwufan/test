@@ -12,7 +12,7 @@ const { Option } = Select;
 
 const { TabPane } = Tabs;
 
-const addshop = () => {
+const Addshop = () => {
     useEffect(() => {
       request.get('/api/getClass').then((res: any) =>{
         console.log(res)
@@ -265,4 +265,4 @@ const addshop = () => {
     )
 }
 
-export default addshop
+export default Addshop

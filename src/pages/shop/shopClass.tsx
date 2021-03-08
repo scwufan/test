@@ -7,7 +7,7 @@ import { useDispatch, useHistory, useLocation, useSelector } from 'umi';
 
 const { Option } = Select;
 const { Search } = Input;
-const shopClass = () => {
+const ShopClass = () => {
     const { Column, ColumnGroup } = Table;
     let history = useHistory()
     let [form] = Form.useForm()
@@ -318,4 +318,4 @@ const shopClass = () => {
     )
 }
 
-export default shopClass
+export default ShopClass

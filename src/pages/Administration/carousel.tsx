@@ -7,7 +7,7 @@ import { useDispatch, useHistory, useLocation, useSelector } from 'umi';
 
 const { Option } = Select;
 const { Search } = Input;
-const carousel = () => {
+const Carousel = () => {
     const { Column, ColumnGroup } = Table;
     let history = useHistory()
     let [form] = Form.useForm()
@@ -309,4 +309,4 @@ const carousel = () => {
     )
 }
 
-export default carousel
+export default Carousel
